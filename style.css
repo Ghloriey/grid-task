@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px 50px 10px 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 30px;
+}
+.container-1{
+    display: grid;
+    grid-template-rows: 15% auto;
+}
+.top{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.item{
+    border: 1px solid black;
+    border-top: blue;
+} 
+.sectionn-1{
+    display: grid;
+    grid-template-rows: 40% 30% 20% auto;
+    gap: 10px;
+}
+.container-2{
+    display: grid;
+    grid-template-rows: 20% auto;
+}
+.container-3{
+    border: 1px solid black;
+}
+.container-4{
+    border: 10p solid blue;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.section-1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.sectionn-2{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.sub-sectionn2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+}
+.section-3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 3px;
+    margin-top: 10px;
+}
+.box-1{
+    border: 1px solid black;
+    height: 150px;
+}
+.section-4{
+    text-align: center;
+    margin-top: 20px;
+}
+.button{
+    padding: 5px 20px 5px 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+.section-5{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin-top: 20px;
+}
+.box-2{
+    border: 1px solid black;
+    height: 150px;
+}
+.special{
+    color: rgb(26, 22, 22);
+    margin-top: 10px;
+}
